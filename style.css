@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+#nama {
+    height: 100vh;
+    background-image: url(img/IMG_20230507_225415_131-fotor-20230818155212.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.profile {
+    background-image: url(img/IMG_4658.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom -100px left -76px;
+    background-size: 200%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#nama h2 {
+    color: white;
+}
+
+.img img{
+    width: 100%;
+}
+
+.img-1 img {
+    width: 70%;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+    color: white;
+    position: absolute;
+    top: 87%;    
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+
+.card-container h5 {
+    text-align: center;
+}
+
+#hobi h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#alasan {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
